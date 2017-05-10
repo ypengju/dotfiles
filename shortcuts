@@ -1,0 +1,31 @@
+
+#基础快捷键配置
+alias shortcuts="vim ~/.zshrc.shortcuts"
+alias zshrc="vim ~/.zshrc"
+alias sourc="source ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
+alias cls="clear"
+alias la="ls -a"
+
+alias p="python"
+alias v="vim"
+
+#tmux配置
+alias tmx="tmux"
+alias tmxa="tmux attach"
+alias tmxrc="vim ~/.tmux.conf"
+alias tmxls="tmux ls"
+
+#tmuxinator配置
+alias tmxtn="tmuxinator new"
+alias tmxto="tmuxinator open"
+alias tmxts="tmuxinator start"
+
+#django配置
+alias createdjproj="django-admin startproject"
+alias createdjapp="django-admin startapp"
+alias run="python manage.py runserver"
+
+#project
+alias site="tmxts site"
+
