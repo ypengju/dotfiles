@@ -28,11 +28,36 @@ Plugin 'https://github.com/kien/ctrlp.vim.git'
 Plugin 'https://github.com/vim-airline/vim-airline.git'
 Plugin 'vim-airline/vim-airline-themes'
 
-"自动补全
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'davidhalter/jedi'
+".h .c文件切换
+Plugin 'https://github.com/vim-scripts/a.vim.git'
 
+"自动补全
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'davidhalter/jedi'
+
+"方法列表
 Plugin 'vim-scripts/taglist.vim'
+
+"全局查找
+Plugin 'https://github.com/mileszs/ack.vim.git'
+
+"注释插件
+"Plugin 'scrooloose/nerdcommenter'
+
+"代码片段
+"Plugin 'SirVer/ultisnips'
+
+"语法检查
+"Plugin 'vim-syntastic/syntastic'
+
+"快速移动
+"Plugin 'Lokaltog/vim-easymotion.git'
+
+"括号自动补全
+"Plugin 'Raimondi/delimitMate'
+
+"代码片段
+"Plugin 'honza/vim-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
