@@ -10,13 +10,13 @@ filetype off                  " required
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
-Plugin 'L9'
+"Plugin 'L9'
 " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+"Plugin 'git://git.wincent.com/command-t.git'
 
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 "NERDTree 管理目录
 Plugin 'https://github.com/scrooloose/nerdtree.git'
@@ -26,7 +26,7 @@ Plugin 'https://github.com/kien/ctrlp.vim.git'
 
 "状态栏
 Plugin 'https://github.com/vim-airline/vim-airline.git'
-Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'vim-airline/vim-airline-themes'
 
 ".h .c文件切换
 Plugin 'https://github.com/vim-scripts/a.vim.git'
@@ -58,6 +58,9 @@ Plugin 'https://github.com/mileszs/ack.vim.git'
 
 "代码片段
 "Plugin 'honza/vim-snippets'
+
+"molokai theme"
+Plugin 'https://github.com/tomasr/molokai.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

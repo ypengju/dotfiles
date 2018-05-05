@@ -14,9 +14,11 @@ set nu
 "主题
 syntax on
 set background=dark
-colorscheme molokai
-"let g:solarized_termcolors=256
-"colorscheme solarized
+"自动安装脚本时查看该文件是否存在
+if filereadable(expand("~/.vim/colors/molokai.vim"))
+	colorscheme molokai
+endif
+"colorscheme molokai
 
 set guifont=Menlo:h18
 
