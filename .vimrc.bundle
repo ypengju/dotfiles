@@ -1,0 +1,64 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+ set rtp+=~/.vim/bundle/Vundle.vim
+ call vundle#begin()
+ Plugin 'gmarik/Vundle.vim'
+"
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+Plugin 'tpope/vim-fugitive'
+" plugin from http://vim-scripts.org/vim/scripts.html
+Plugin 'L9'
+" Git plugin not hosted on GitHub
+Plugin 'git://git.wincent.com/command-t.git'
+
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+"NERDTree 管理目录
+Plugin 'https://github.com/scrooloose/nerdtree.git'
+
+"CtrlP 文件跳转
+Plugin 'https://github.com/kien/ctrlp.vim.git'
+
+"状态栏
+Plugin 'https://github.com/vim-airline/vim-airline.git'
+Plugin 'vim-airline/vim-airline-themes'
+
+".h .c文件切换
+Plugin 'https://github.com/vim-scripts/a.vim.git'
+
+"自动补全
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'davidhalter/jedi'
+
+"方法列表
+Plugin 'vim-scripts/taglist.vim'
+
+"全局查找
+Plugin 'https://github.com/mileszs/ack.vim.git'
+
+"注释插件
+"Plugin 'scrooloose/nerdcommenter'
+
+"代码片段
+"Plugin 'SirVer/ultisnips'
+
+"语法检查
+"Plugin 'vim-syntastic/syntastic'
+
+"快速移动
+"Plugin 'Lokaltog/vim-easymotion.git'
+
+"括号自动补全
+"Plugin 'Raimondi/delimitMate'
+
+"代码片段
+"Plugin 'honza/vim-snippets'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
