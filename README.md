@@ -1,6 +1,7 @@
 安装Vim配置
 
+####install
 ```
-wget -qO- https://github.com/ypengju/dotfiles/blob/master/install_vim.sh | sh -x
-./install_vim.sh
+git clone git@github.com:ypengju/dotfiles.git
+./dotfiles/install_vim.sh
 ```
